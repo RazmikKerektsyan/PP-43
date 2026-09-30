@@ -1,7 +1,7 @@
 #სავარჯიშო 1
 
 age = int(input("Enter your age: "))
-if (age >= 18) or (12 <= age <= 17  and input("მშობელთან ერთად ხართ? (კი/არა): ") == "კი"):
+if (age >= 18) or (12 <= age <= 17  and input("მშობელთან ერთად ხართ? (კი/არა): ").strip() == "კი"):
     print("შესვლა დაშვებულია")
 
 else:
